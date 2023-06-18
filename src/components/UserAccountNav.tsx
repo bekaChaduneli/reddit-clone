@@ -10,7 +10,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/DropDownMenu";
-import UserAvatar from "./UserAvatar";
+import { UserAvatar } from "./UserAvatar";
 
 interface UserAccountNavProps {
   user: Pick<User, "name" | "image" | "email">;
