@@ -38,6 +38,7 @@ const CommentsSection = async ({ postId }: CommentsSectionProps) => {
                                 if (vote.type === "DOWN") return acc - 1;
                                 return acc;
                             }, 0);
+
                         const topLevelCommentVote = topLevelComment.votes.find(
                             (vote) => vote.userId === session?.user.id
                         );
@@ -47,7 +48,12 @@ const CommentsSection = async ({ postId }: CommentsSectionProps) => {
                                 className="flex flex-col"
                             >
                                 <div className="mb-2">
-                                    <PostComment comment={topLevelComment} />
+                                    <PostComment
+                                        comment={topLevelComment}
+                                        currentVote={topLevelCommentVote}
+                                        votesAmt={topLevelCommentVotesAmt}
+                                        postId={postId}
+                                    />
                                 </div>
                             </div>
                         );
