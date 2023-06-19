@@ -27,7 +27,6 @@ const Post: FC<PostProps> = ({
     currentVote: _currentVote,
     subredditName,
     commentAmt,
-    votesAmt,
 }) => {
     const pRef = useRef<HTMLParagraphElement>(null);
 

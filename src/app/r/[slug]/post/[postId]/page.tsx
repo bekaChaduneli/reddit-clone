@@ -7,10 +7,10 @@ import { redis } from "@/lib/redis";
 import { formatTimeToNow } from "@/lib/utils";
 import { CachedPayload } from "@/types/redis";
 import { Post, User, Vote } from "@prisma/client";
-import { ArrowBigDown, Loader } from "lucide-react";
+import { ArrowBigDown } from "lucide-react";
 import { ArrowBigUp, Loader2 } from "lucide-react";
 import { notFound } from "next/navigation";
-import { FC, Suspense } from "react";
+import { Suspense } from "react";
 interface PageProps {
     params: {
         postId: string;
