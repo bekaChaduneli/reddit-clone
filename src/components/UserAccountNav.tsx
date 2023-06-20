@@ -9,7 +9,7 @@ import {
     DropdownMenuItem,
     DropdownMenuSeparator,
     DropdownMenuTrigger,
-} from "./ui/DropDownMenu";
+} from "./ui/DropdownMenu";
 import { UserAvatar } from "./UserAvatar";
 
 interface UserAccountNavProps {
