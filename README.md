@@ -16,7 +16,7 @@ The main goal of the project was to create a site where users can register by em
 
 ### Links
 
--   Live Site URL: [Live site](https://reddit-clone-b615.vercel.app/)
+-   Live Site URL: [Live site](https://reddit-clone-ten-amber.vercel.app/)
 -   Solution URL: [Solution URL](https://github.com/bekaChaduneli/reddit-clone)
 
 ### Built with
