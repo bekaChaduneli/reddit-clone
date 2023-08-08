@@ -26,10 +26,10 @@ The main goal of the project was to create a site where users can register by em
 -   Typescript
 -   Prisma
 -   MySQL
+-   Redis
 
 ## Tools
 
--   Redis
 -   Next Auth
 -   Shadcn
 -   Editor Js
